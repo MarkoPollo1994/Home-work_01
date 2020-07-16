@@ -1,16 +1,38 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-h2{
-    font-family: 'Bangers', cursive;
+h2 {
+    font-family:'Modak', cursive;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+li{
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:navy;
+}
+
 
 option{
 
     font-family: 'Bangers', cursive;
 }
 
-table {
+
+
+    .send-button{
+        background-color:red;
+        color: black ;
+        
+    }
+    
+ select{
+font-family: fantasy;
+color: purple;
+
+ }
+
+ table {
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     font-size: 14px;
     border-radius: 10px;
@@ -18,8 +40,8 @@ table {
     text-align: center;
     }
     th {
-    background: #BCEBDD;
-    color: white;
+    background: firebrick;
+    color: darkorange;
     text-shadow: 0 1px 1px #2D2020;
     padding: 10px 20px;
     }
@@ -40,7 +62,7 @@ table {
     }
     td {
     padding: 10px 20px;
-    background: #F8E391;
+    background: #a491f8;
     }
     tr:last-child td:first-child {
     border-radius: 0 0 0 10px;
@@ -52,9 +74,25 @@ table {
     border-right: none;
     }
 
+    span{
+        font-family: 'Lobster', cursive;
 
-    .submit {
-        width: 20px;
-        height: 20px;
     }
-    
+    a.button1{
+
+        a.button1 {
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            padding: .8em 1em calc(.8em + 3px);
+            border-radius: 3px;
+            background: rgb(64,199,129);
+            box-shadow: 0 -3px rgb(53,167,110) inset;
+            transition: 0.2s;
+          } 
+          a.button1:hover { background: rgb(53, 167, 110); }
+          a.button1:active {
+            background: rgb(33,147,90);
+            box-shadow: 0 3px rgb(33,147,90) inset;
+          }
+    }
